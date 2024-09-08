@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANSWER POLL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .poll {
+            margin-bottom: 20px;
+        }
+        .poll label {
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>What is the brightest colour among the colours stated below</h1>
+    <form id="pollForm">
+        <div class="poll">
+            <label>
+                <input type="radio" name="poll" value="Option 1">
+                White
+            </label>
+            <label>
+                <input type="radio" name="poll" value="Option 2">
+                Red
+            </label>
+            <label>
+                <input type="radio" name="poll" value="Option 3">
+                Yellow
+            </label>
+            <label>
+                <input type="radio" name="poll" value="Option 4">
+                Blue
+            </label>
+			
+        </div>
+        <button type="button" onclick="sendPoll()">Submit Poll </button>
+    </form>
+
+</body>
+</html>
